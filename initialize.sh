@@ -5,7 +5,7 @@ cd "$DIR"
 
 ORIG_DIR=`pwd`
   
-ASK_QUESTIONS=1
+ASK_QUESTIONS=0
 if [[ $* == *--collab* ]]
 then 
  echo "Using non-blocking collab mode"
@@ -195,7 +195,7 @@ clear
   #Only ask if we can answer
   #_____________________________
   if [ "$ASK_QUESTIONS" -eq "0" ]; then
-   answer="Y"
+   answer="N"
    else
    read answer
   fi 
