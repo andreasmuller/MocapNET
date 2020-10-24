@@ -329,7 +329,7 @@ if (OpenCV_FOUND)
 add_subdirectory (src/Webcam/)
 #Deactivated to keep build targets  sane
 add_subdirectory(src/MocapNET2/BVHGUI2)
-add_subdirectory(src/MocapNET2/MocapNET2LiveWebcamDemo)
+#add_subdirectory(src/MocapNET2/MocapNET2LiveWebcamDemo)
 ENDIF(OpenCV_FOUND)
 
 add_subdirectory(src/MocapNET2/MocapNETLib2/)
